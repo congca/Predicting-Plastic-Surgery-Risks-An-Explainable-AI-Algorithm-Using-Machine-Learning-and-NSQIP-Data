@@ -3,7 +3,7 @@
 # outcome_grouping_puf17.R, and outcome_grouping_puf18.R must all be run prior to running the script for the 
 # pred_puf16, pred_puf17, pred_puf18, grouped_outcomes_puf16, grouped_outcomes_puf17, and grouped_outcomes_puf18 objects.
 # This script prints out summaries of the models created
-# Kyle McGraw, July 2019
+
 
 
 ### Import Data ###
