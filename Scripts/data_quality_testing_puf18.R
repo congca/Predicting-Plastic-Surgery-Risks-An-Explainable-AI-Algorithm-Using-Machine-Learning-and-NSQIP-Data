@@ -4,7 +4,7 @@
 # postPredictors18.tex, postOutcomes18.tex, pre18.tex
 # This file generates two data tables for zero control tests:
 # pred_sum_testing_puf18, outcome_sum_testing_puf18
-# Kyle McGraw, July 2019
+
 
 library(dplyr)
 library(xtable)
