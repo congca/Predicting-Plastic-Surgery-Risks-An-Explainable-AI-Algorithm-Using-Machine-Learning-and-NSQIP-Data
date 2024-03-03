@@ -3,7 +3,7 @@
 # running the script for the pred_puf18 and grouped_outcomes_puf18 objects.
 # This file generates a table of coefficients and figure of the effect of each 
 # predictor individually for each outcome
-# Kyle McGraw, July 2019
+
 
 library(dplyr)
 library(xtable)
