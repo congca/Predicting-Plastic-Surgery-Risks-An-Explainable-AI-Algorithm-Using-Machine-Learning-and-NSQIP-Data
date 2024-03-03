@@ -1,10 +1,10 @@
 # This script runs some tests on the data from the NSQIP 2017 dataset
-# data_processing_puf17.R must be run prior to running the script for the pred_puf17 and outcomes_puf17 objects.
-# This file generates latex code for tables of variables pre and post processing:
+# data_processing_puf17.R must be run before running the script for the pred_puf17 and outcomes_puf17 objects.
+# This file generates latex code for tables of variables pre and post-processing:
 # postPredictors17.tex, postOutcomes17.tex, pre17.tex
 # This file generates two data tables for zero control tests:
 # pred_sum_testing_puf17, outcome_sum_testing_puf17
-# Kyle McGraw, July 2019
+
 
 library(dplyr)
 library(xtable)
