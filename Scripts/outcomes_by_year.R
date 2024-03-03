@@ -2,7 +2,6 @@
 # outcome_grouping_puf16.R, outcome_grouping_puf17.R, and outcome_grouping_puf18.R must be run prior
 # to running the script for the grouped_outcomes_puf16, grouped_outcomes_puf17, and grouped_outcomes_puf18 objects.
 # This file generates latex code for a table of outcomes: outcomes.tex
-# Kyle McGraw, July 2019
 
 library(dplyr)
 library(xtable)
