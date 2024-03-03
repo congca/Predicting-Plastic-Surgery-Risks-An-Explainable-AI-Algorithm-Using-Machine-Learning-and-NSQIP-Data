@@ -2,7 +2,7 @@
 # data_processing_puf16.R, data_processing_puf17.R, and data_processing_puf18.R must be run prior
 # to running the script for the pred_puf16, pred_puf17, and pred_puf18 objects.
 # This file generates latex code for a table of the number of a surgery type: surgery.tex
-# Kyle McGraw, July 2019
+
 
 library(dplyr)
 library(tibble)
