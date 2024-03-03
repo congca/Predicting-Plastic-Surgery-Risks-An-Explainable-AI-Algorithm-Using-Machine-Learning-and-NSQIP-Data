@@ -2,7 +2,6 @@
 # data_processing_puf16.R and outcome_grouping_puf16.R must be run prior to 
 # running the script for the pred_puf16 and grouped_outcomes_puf16 objects.
 # This code is adapted from https://github.com/sysilviakim/turnout2016
-# Kyle McGraw, August 2019
 
 library(caret)
 library(dplyr)
