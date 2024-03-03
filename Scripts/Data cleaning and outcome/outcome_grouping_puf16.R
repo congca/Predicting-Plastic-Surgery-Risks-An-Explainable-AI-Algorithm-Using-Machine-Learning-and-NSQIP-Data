@@ -1,11 +1,11 @@
 # This script groups outcomes from the NSQIP 2016 dataset
-# data_processing_puf16.R must be run prior to running the script to generate the outcomes_puf16 object.
+# data_processing_puf16.R must be run before running the script to generate the outcomes_puf16 object.
 # The output of this file is grouped_outcomes_puf16 (a data table of grouped outcomes).
-# Kyle McGraw, July 2019
+
 
 library(dplyr)
 
-# Import dataframe
+# Import data frame
 load("outcomes_puf16.Rda")
 
 # Groups outcomes
