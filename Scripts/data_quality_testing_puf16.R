@@ -1,10 +1,9 @@
 # This script runs some tests on the data from the NSQIP 2016 dataset
-# data_processing_puf16.R must be run prior to running the script for the pred_puf16 and outcomes_puf16 objects.
-# This file generates latex code for tables of variables pre and post processing:
+# data_processing_puf16.R must be run before running the script for the pred_puf16 and outcomes_puf16 objects.
+# This file generates latex code for tables of variables pre and post-processing:
 # postPredictors16.tex, postOutcomes16.tex, pre16.tex
 # This file generates two data tables for zero control tests:
 # pred_sum_testing_puf16, outcome_sum_testing_puf16
-# Kyle McGraw, July 2019
 
 library(dplyr)
 library(xtable)
@@ -16,8 +15,8 @@ pre16 <- read.csv("acs_nsqip_puf16.txt", sep="\t", header = TRUE, stringsAsFacto
 
 
 #### Frequency Distributions ####
-# Generated latex tables to check that frequencies are similar before and after recoding
-# Only uses categories that have less than 15 options to only include multiple choice categories
+# Generated latex tables to check that frequencies are similar before and after recording
+# Only uses categories that have less than 15 options to only include multiple-choice categories
 
 # Creates new empty file for all three sets of tables
 file.create( "postPredictors16.tex")
@@ -25,7 +24,7 @@ file.create( "postOutcomes16.tex")
 file.create( "pre16.tex")
 
 # Recoded predictors
-# Appends each variable to file as an additional table
+# Appends each variable to the file as an additional table
 for (i in colnames(pred_puf16)){
   temp <- table(pred_puf16[[i]])
   if (nrow(temp) < 15) {
