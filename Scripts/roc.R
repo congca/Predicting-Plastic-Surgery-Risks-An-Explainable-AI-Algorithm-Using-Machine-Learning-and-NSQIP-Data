@@ -1,10 +1,9 @@
-# This script creates uses the NSQIP 2017 dataset to test the models
+# This script uses the NSQIP 2017 dataset to test the models
 # data_processing_puf17.R, outcome_grouping_puf17.R, rf.r, ff.R, and logit.R
-# must be run prior to running the script for the pred_puf17, 
+# must be run before running the script for the pred_puf17, 
 # grouped_outcomes_puf17, rf, ff, and logit objects.
-# This file generates a table of AUC values for each models as well as graphs of
-# the ROC curves for each model
-# Kyle McGraw, August 2019
+# This file generates a table of AUC values for each model as well as graphs of
+# The ROC curves for each model
 
 library(dplyr)
 library(xtable)
